@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+.container header{
+  height: 60px;
+  background-color: #6A5ACD;
+  
+}
+.container header nav {
+  font-size: 20px;
+
+}
+.container header nav ul{
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+.container header nav ul li{
+ padding-right: 40px;
+ margin-top: 18px;
+ 
+}
