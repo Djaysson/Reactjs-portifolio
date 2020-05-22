@@ -5,7 +5,7 @@ import "./styles.css";
 
 const Header = () =>{
   return(
-  <div className="container">
+  <div className="menu">
    <header>
       <nav>
         <ul>

@@ -1,11 +1,14 @@
 import React from 'react';
 import Header from './components/header/index';
 import Footer from './components/footer/index';
+import Home from './pages/home/index';
 import "./global.css";
-function App() {
+
+const App = () => {
   return (
     <div>
       <Header />
+      <Home />
       <Footer />
     </div>
   );
