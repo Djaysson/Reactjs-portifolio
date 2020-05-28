@@ -1,0 +1,32 @@
+.sobre{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.sobre img{
+  width: 200px;
+  height: 300px;
+  margin: 20px 20px 0px 60px;
+ 
+}
+.conteudo{
+  width: 100%;
+  height: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 20px 20px 0px 20px;
+  
+}
+.conteudo strong{
+ color:#6A5ACD;
+ font-size: 30px;
+
+
+}
+.conteudo h2{
+  color: #fff; 
+ font-size: 30px;
+}
