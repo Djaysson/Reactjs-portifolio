@@ -14,31 +14,50 @@ const Habilidades= () => {
             <CircleProgress 
             percentage={80} 
             strokeWidth={8} 
-            width={100} 
+            width={80} 
             secondaryColor="#f0f0f0" 
-            primaryColor={["#59C173","#a17fe0","#5D26C1"]}  
+            primaryColor={["#59C173","#5D26C1"]}  
             /> 
           </div>
           <div className="percetual">
             <strong>CSS</strong>
             <CircleProgress
              percentage={70}
-              strokeWidth={8}
-               width={100} 
-               secondaryColor="#f0f0f0" 
+             strokeWidth={8} 
+             width={80} 
+             secondaryColor="#f0f0f0" 
+             primaryColor={["#59C173","#5D26C1"]}  
                /> 
             </div>
           <div className="percetual">
             <strong>JAVASCRIPT</strong>
-            <CircleProgress percentage={70} strokeWidth={8} width={100} secondaryColor="#f0f0f0" /> 
+            <CircleProgress
+             percentage={70} 
+             strokeWidth={8} 
+             width={80} 
+             secondaryColor="#f0f0f0" 
+             primaryColor={["#59C173","#5D26C1"]}  
+              /> 
           </div>
           <div className="percetual">
             <strong>REACTJS</strong>
-            <CircleProgress percentage={60} strokeWidth={8} width={100} secondaryColor="#f0f0f0" /> 
+            <CircleProgress 
+            percentage={60} 
+            strokeWidth={8} 
+            width={80} 
+            secondaryColor="#f0f0f0" 
+            primaryColor={["#59C173","#5D26C1"]}  
+             /> 
           </div>
           <div className="percetual">
             <strong>REACT NATIVE</strong>
-            <CircleProgress percentage={60} strokeWidth={8} width={100} secondaryColor="#f0f0f0" /> 
+            <CircleProgress 
+            percentage={60} 
+            strokeWidth={8} 
+            width={80} 
+            secondaryColor="#f0f0f0" 
+            primaryColor={["#59C173","#5D26C1"]}  
+             /> 
           </div>
        </div>
     </div>
