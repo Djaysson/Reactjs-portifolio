@@ -9,10 +9,7 @@
 }
 body{
   font: 400 14px Roboto, sans-serif;
-  background: #23074d; 
-  background: -webkit-linear-gradient(to right, #23074d, #cc5333); 
-  background: linear-gradient(to right, #23074d, #cc5333);
-  
+  background: #000000; 
   -webkit-font-smoothing: antialiased;
 }
 input, button {

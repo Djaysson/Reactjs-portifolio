@@ -1,7 +1,7 @@
 import React from 'react';
 import Habilidades from '../skills/index';
 import './styles.css';
-import Img from '../../assets/img.jpg';
+import Img from '../../../assets/img.jpg';
 
 const Sobre = () => {
   return(

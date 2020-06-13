@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './styles.css';
-import Img from '../../assets/coding.jpg';
+import Img from '../../../assets/coding.jpg';
 const Home = () =>{
   return (
     <div className="home">
