@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link} from "react-router-dom";
 import "./styles.css";
 //import logoImg from '../../assets/logo.png';
 
@@ -9,10 +9,10 @@ const Header = () =>{
    <header>
       <nav>
         <ul>
-          <li><a href="/header">Home</a></li>
-          <li><a href="/Sobre">Sobre</a></li>
-          <li><a href="/Trabalhos">Trabalhos</a></li>
-          <li><a href="/Contato">Contato</a></li>     
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/Sobre">Sobre</Link></li>
+          <li><Link to="/Trabalhos">Trabalhos</Link></li>
+          <li><Link to="/Contato">Contato</Link></li>     
         </ul>
       </nav>
       
