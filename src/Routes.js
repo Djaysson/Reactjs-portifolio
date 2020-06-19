@@ -1,12 +1,15 @@
 import React from 'react';
 import Home from './components/pages/home/index';
-import Sobre from './components/pages/sobre/index';
+import About from './components/pages/about/index';
+import works from './components/pages/works/index';
+
 import {Switch,Route,} from "react-router-dom";
 function Routes() {
   return (
     <Switch>
       <Route path="/" exact component={Home}/>
-      <Route path="/sobre"  component={Sobre}/>
+      <Route path="/about"  component={About}/>
+      <Route path="/works"  component={works}/>
     </Switch>
   );
 }

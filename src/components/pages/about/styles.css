@@ -1,9 +1,10 @@
 .sobre{
-  width: 100%;
-  height: 50%;
+  width: 1024px auto;
   display: flex;
   align-items: center;
-  flex-direction: row;
+  justify-content: center;
+  
+
 }
 .sobre img{
   width: 200px;
