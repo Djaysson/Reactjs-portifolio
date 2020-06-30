@@ -53,6 +53,8 @@
 }
 .content button{
  background: #6A5ACD;
+ width:  250px;
+ text-transform: uppercase;
  color:#FFF;
  font-size: 20px;
  font-weight: bold;

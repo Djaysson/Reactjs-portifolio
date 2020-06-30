@@ -6,7 +6,7 @@ import "./styles.css";
 const Footer = () =>{
   return(
   <div className="footer">
-  <footer>&copy; Copyright 2020-All Rights Reserved - Djayson Alves</footer>
+  <footer>&copy; Copyright 2020-All Rights Reserved - Djayson Rodrigues</footer>
   </div>
   );
 }
