@@ -10,7 +10,12 @@
 }
 body{
   font: 400 14px Roboto, sans-serif;
-  background: #000000; 
+  background-image: url("./assets/Background.png");
+  background-color: #000000;
+  height: 700px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
   -webkit-font-smoothing: antialiased;
 }
 input, button {

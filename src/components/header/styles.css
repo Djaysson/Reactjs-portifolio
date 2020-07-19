@@ -1,11 +1,16 @@
 .menu {
   width: 100%;
- 
 }
 .menu header{
   height: 60px;
   background-color: #6A5ACD;
+  display: flex;
+  justify-content: space-between;
   
+}
+.menu img {
+ width: 150px;
+ height: 65px;
 }
 .menu header nav {
   font-size: 20px;

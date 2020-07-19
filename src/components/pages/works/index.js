@@ -9,7 +9,7 @@ function Works() {
   return (
     <div className="containe">
         
-         <h1>trabalhos</h1>
+         <h1>Trabalhos</h1>
        
         <main className="project-list">
           <article>

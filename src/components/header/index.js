@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link} from "react-router-dom";
 import "./styles.css";
-//import logoImg from '../../assets/logo.png';
+import logoImg from '../../assets/logo.svg';
 
-const Header = () =>{
+const Header = () => {
   return(
   <div className="menu">
-   <header>
+  <header>
+  <img src={logoImg} alt="logotipo"/>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
@@ -14,8 +15,7 @@ const Header = () =>{
           <li><Link to="/works">Trabalhos</Link></li>
           <li><Link to="/Contato">Contato</Link></li>     
         </ul>
-      </nav>
-      
+      </nav>      
    </header>
   </div>
   );
