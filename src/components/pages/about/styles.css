@@ -8,8 +8,8 @@
 }
 .sobre img{
   width: 200px;
-  height: 300px;
-  margin: 20px 20px 0px 60px;
+  height: 350px;
+  padding: 60px 20px 0px 20px;
  
 }
 .conteudo{
@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  margin: 20px 20px 0px 20px;
+  padding: 20px 20px 0px 20px;
   
 }
 .conteudo strong{
@@ -35,8 +35,9 @@
  margin-bottom: 25px;
 }
 .conteudo p{
-  
+  width: 80%;
  text-align: justify;
  font-size: 14px;
  text-indent: 40px;
+ padding: 5px;
 }

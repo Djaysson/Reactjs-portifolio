@@ -43,7 +43,7 @@ box-sizing: border-box;
 .button {
     border: 1px solid rgba(0,0,0,0.2);
     padding: 8px 35px;
-    font-size: 12px;
+    font-size: 15px;
     background:#6A5ACD;
     color: white;
     text-transform: uppercase;
