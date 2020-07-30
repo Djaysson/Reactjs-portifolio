@@ -9,8 +9,10 @@ const Sobre = () => {
       <div className="sobre">
         <img src={Img} alt="perfil" />
         <div className="conteudo">
-          <h2><strong>Sobre</strong>Mim</h2>
-
+          <div className="title">
+            <strong>Sobre</strong>
+            <h2>Mim</h2>
+          </div>
           <p>
             Me chamo Djayson Rodrigues sou desenvolvedor Frontend de aplicações
             web e mobile, sou cientista da computação, tenho 27 anos, graduando
@@ -25,7 +27,7 @@ const Sobre = () => {
             projeto que vai de frontend, backend, mobile.
           </p>
         </div>
-      </div>
+      </div >
       <Habilidades />
     </>
   );

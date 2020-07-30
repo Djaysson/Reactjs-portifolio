@@ -12,7 +12,8 @@
     font-size: 40px;
     font-weight: bold;
     padding-top:20px ;
-
+    animation: fadeInLeft;  
+    animation-duration: 2s; 
 }
 .contact-form {
     font: 400 14px Roboto, sans-serif;
@@ -23,6 +24,8 @@
     margin: auto;
     margin-top: 30px;
     box-shadow:  0 0 1.2em #6A5ACD;
+    animation: fadeInLeft;  
+    animation-duration: 2s; 
     }
 .contact-form input{
 padding: 5px 5px;

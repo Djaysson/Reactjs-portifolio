@@ -15,6 +15,8 @@
   margin-bottom: 30px;
   color: #fff;
   margin-top: 3rem;
+  animation: fadeInLeft;  
+    animation-duration: 2s; 
 }
 .project-list {
   display: grid;
@@ -62,4 +64,16 @@
 .project-list button:hover{
   background-color: rgb(231, 227, 227);
 
+}
+.animation1{
+  animation: fadeInLeft;  
+  animation-duration: 4s; 
+}
+.animation2{
+  animation: fadeInLeft;  
+  animation-duration: 3s; 
+}
+.animation3{
+  animation: fadeInLeft;  
+  animation-duration: 2s; 
 }
