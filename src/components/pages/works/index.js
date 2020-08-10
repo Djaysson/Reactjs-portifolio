@@ -2,8 +2,8 @@ import React from 'react';
 
 import './styles.css';
 import Img from '../../../assets/home.png';
-import Img2 from '../../../assets/bethehero.png';
-import Img3 from '../../../assets/devradar.jpg';
+import Img2 from '../../../assets/convert.png';
+import Img3 from '../../../assets/palpitebox.png';
 
 function Works() {
   return (
@@ -26,23 +26,23 @@ function Works() {
         <article className="animation2">
           <header>
             <span>Fullstack</span>
-            <p>Be the hero</p>
+            <p>ConvertMyMoney</p>
           </header>
           <img src={Img2} alt="Imagem do projeto portifolio" />
           <footer>
-            <button><a href="https://github.com/Djaysson/Reactjs-portifolio/blob/master/static/home.png">demo</a></button>
-            <button><a href="https://github.com/Djaysson/Project-BeTheHero">github</a></button>
+            <button><a href="https://convert-my-money-theta.vercel.app/">demo</a></button>
+            <button><a href="https://github.com/Djaysson/ConvertMyMoney">github</a></button>
           </footer>
         </article>
         <article className="animation3">
           <header>
             <span>Fullstack</span>
-            <p>devradar</p>
+            <p>PalpiteBox</p>
           </header>
           <img src={Img3} alt="Imagem do projeto portifolio" />
           <footer>
-            <button><a href="https://github.com/Djaysson/Reactjs-portifolio/blob/master/static/home.png">demo</a></button>
-            <button><a href="https://github.com/Djaysson/Devradar">github</a></button>
+            <button><a href="https://palpite-box-orpin.vercel.app/">demo</a></button>
+            <button><a href="https://github.com/Djaysson/PalpiteBox">github</a></button>
           </footer>
         </article>
 

@@ -13,7 +13,7 @@ const Home = () => {
         <p>Developer Front End | React | React Nativo</p>
       </div>
       <div className="content">
-        <strong>Seja Bem vindo ao meu portifolio</strong>
+        <strong>Seja bem vindo ao meu portfólio</strong>
 
         <p>Me chamo Djayson Rodrigues e criei este
         Portfólio com o intuito de  mostrar os

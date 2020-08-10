@@ -22,8 +22,8 @@ const Sobre = () => {
           </p>
           <p>
             Sou lifelong learner de tecnologia e apaixonado pelo que eu faço, sou
-            fascinado por novos desafios na área de desenvolvimento de software
-            principalmente nessa stack, pois com ela é possível fazer diferentes
+            fascinado por novos desafios na área de desenvolvimento de software,
+            principalmente na stack JavaScript, pois com ela é possível fazer diferentes
             projeto que vai de frontend, backend, mobile.
           </p>
         </div>
