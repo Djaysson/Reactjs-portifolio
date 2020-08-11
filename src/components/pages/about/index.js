@@ -1,5 +1,6 @@
 import React from 'react';
 import Habilidades from '../skills/index';
+import Footer from '../../footer/index';
 import './styles.css';
 import Img from '../../../assets/img.jpg';
 
@@ -14,8 +15,7 @@ const Sobre = () => {
             <h2>Mim</h2>
           </div>
           <p>
-            Me chamo Djayson Rodrigues sou desenvolvedor Frontend de aplicações
-            web e mobile, sou cientista da computação, tenho 27 anos, graduando
+            Me chamo Djayson Rodrigues sou desenvolvedor Frontend de aplicações web e mobile, sou cientista da computação, tenho 27 anos, graduando
             em Análise e Desenvolvimento de sistemas, apaixonado pelo desenvolvimento
             de software, em especial a stack JavaScript, React, React Native e Node.js
             e todo o ecossistema por volta dessas tecnologias.
@@ -29,6 +29,7 @@ const Sobre = () => {
         </div>
       </div >
       <Habilidades />
+      <Footer />
     </>
   );
 }

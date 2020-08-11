@@ -1,5 +1,5 @@
 .menu {
-  width: 100%;
+  width: 100vw;
 }
 .menu header{
   height: 60px;
@@ -9,11 +9,14 @@
   
 }
 .menu img {
- width: 150px;
+ width: 110px;
  height: 65px;
 }
 .menu header nav {
-  font-size: 20px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 .menu header nav ul{
@@ -24,7 +27,22 @@
   list-style: none;
 }
 .menu header nav ul li{
- padding-right: 40px;
- margin-top: 18px;
- 
+ padding-right: 27px;
+}
+@media (min-width: 700px){
+  .menu {
+    width: 100vw;
+    
+  }
+  .menu header nav {
+    font-size:20px;
+
+  }
+  .menu header nav ul li{
+    padding-right: 40px;
+   }
+  .menu img {
+    width: 150px;
+    height: 65px;
+   }
 }

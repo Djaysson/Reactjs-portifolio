@@ -1,5 +1,5 @@
 .sobre{
-  width: 1024px auto;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,45 +7,66 @@
 
 }
 .sobre img{
-  width: 200px;
-  height: 350px;
-  padding: 60px 20px 0px 20px;
+  width: 150px;
+  height: 280px;
+  padding: 60px 0px 0px 20px;
   animation: fadeInLeft; 
   animation-duration: 2s; 
 }
 .conteudo{
-  width: 70%;
+  width: 70vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
-  padding: 20px 20px 0px 20px;
   
+}
+.conteudo p{
+  width: 60vw;
+ text-align: justify;
+ font-size: 14px;
+ text-indent: 40px;
+ animation: fadeInUp;  
+ animation-duration: 2s; 
 }
 .title {
  display: flex;
+ padding-top: 15px;
 }
 .title strong{
  color:#6A5ACD;
- font-size: 30px;
+ font-size: 25px;
  padding-right: 10px;
  animation: lightSpeedInLeft; 
   animation-duration: 2s; 
 }
 .title h2{
-  color: #fff; 
- font-size: 30px;
+ font-size: 25px;
  margin-bottom: 25px;
  animation: lightSpeedInRight; 
   animation-duration: 2s; 
 }
-.conteudo p{
-  width: 80%;
- text-align: justify;
- font-size: 14px;
- text-indent: 40px;
- padding: 5px;
- animation: fadeInUp;  
- animation-duration: 2s; 
+@media (min-width: 700px){
+  .sobre img{
+    width: 200px;
+    height: 350px;
+    padding: 60px 20px 0px 20px;
+  }
+  .conteudo p{
+    width: 80%;
+   text-align: justify;
+   font-size: 14px;
+   text-indent: 40px;
+   padding: 5px;
+    
+  }
+  .title strong{
+    font-size: 30px;
+    padding-right: 10px;
+   }
+   .title h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+   }
 }

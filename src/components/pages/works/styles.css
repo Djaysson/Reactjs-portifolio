@@ -1,62 +1,70 @@
-.containe{
+.containe-trabalhos{
   display: flex;
-  place-items: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-height: 550px;
   color: #fff;
-  padding: 20px;
-    
+ 
+  
+
 }
 
-.containe h1{
-  font-size: 3rem;
-  margin-bottom: 30px;
+.containe-trabalhos h1{
+  font-size: 25px;
+  margin-bottom: 20px;
   color: #fff;
-  margin-top: 3rem;
+  margin-top: 20px;
   animation: fadeInLeft;  
-    animation-duration: 2s; 
+  animation-duration: 2s; 
 }
 .project-list {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(1,1fr);
   grid-gap: 1em;
+  
+  
 }
 .project-list article {
  width: 300px; 
- height: 230px; 
-
+ height: 130px; 
+ padding-bottom: 220px;
 }
 .project-list article header{
     display: flex;
     justify-content: space-between;
+   
 }
 .project-list article header span{
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-size: 12px;
   font-weight: 700;
 }
 .project-list article header p{
   color:#fff;
-  padding-right: 50px;
+  font-size: 12px;
+  padding-right: 4px;
+
 }
 .project-list article img {
-  width: 250px;
-  height: 160px;
-  display: block;
+  width: 300px;
+  height: 150px;
+  
 }
 .project-list article footer {
   display: flex;
-  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4px;
+
   
 }
 .project-list article footer button {
   background-color:#6A5ACD;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   width: 125px;
   height: 25px;
   border-radius: 10px; 
@@ -65,15 +73,78 @@
   background-color: rgb(231, 227, 227);
 
 }
-.animation1{
+.project1{
   animation: fadeInLeft;  
   animation-duration: 4s; 
 }
-.animation2{
+.project2{
   animation: fadeInLeft;  
   animation-duration: 3s; 
 }
-.animation3{
+.project3{
   animation: fadeInLeft;  
   animation-duration: 2s; 
+}
+
+
+@media (min-width:700px){
+  .containe-trabalhos{
+    
+    width: 100vw;
+      
+  }
+  .containe-trabalhos h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #fff;
+    margin-top: 3rem;
+    animation: fadeInLeft;  
+      animation-duration: 2s; 
+  }
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+  }
+  .project-list article {
+   width: 300px; 
+   height: 230px; 
+  
+  }
+  .project-list article header{
+      display: flex;
+      justify-content: space-between;
+  }
+  .project-list article header span{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .project-list article header p{
+    color:#fff;
+    padding-right: 50px;
+  }
+  .project-list article img {
+    width: 250px;
+    height: 160px;
+    display: block;
+  }
+  .project-list article footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 50px;
+    
+  }
+  .project-list article footer button {
+    background-color:#6A5ACD;
+    text-transform: uppercase;
+    font-weight: bold; 
+    font-size: 15px;
+    width: 125px;
+    height: 25px;
+    border-radius: 10px; 
+  }
 }
