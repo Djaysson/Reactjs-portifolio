@@ -1,14 +1,14 @@
 .home{
   width: 100vw;
+  height: 100vh;
   margin: 0 auto;
-  height: 90vh;
   
   
 }
 .home img{
   position: absolute;
   width: 100vw;
-  height: 250px;
+  height: 200px;
   
  
 }
@@ -20,24 +20,23 @@
   align-items: center;
   font-weight: bold;
   top:90px;
-  color: #FFF;
-
+  color: #FFF;  
   
 }
 .info h1{
-  font-size: 25px;
+  font-size: 20px;
   animation: lightSpeedInLeft; 
   animation-duration: 2s; 
  
 }
 .info h2{
-  font-size: 25px;
+  font-size: 20px;
   color:red;
   animation: lightSpeedInLeft; 
   animation-duration: 3s; 
 }
 .info p{
-  font-size: 17px;
+  font-size: 15px;
   animation: lightSpeedInLeft; 
   animation-duration: 5s; 
 }
@@ -47,34 +46,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top:200px;
+  top:150px;
   color: #FFF;
   animation: fadeInUp;  
   animation-duration: 2s; 
+  
 }
 .content strong{
-  padding: 25px;  
-  font-size: 17px;
+  padding: 20px;  
+  font-size: 18px;
 }
 .content p{
   display: flex;
   align-items: center;
-  width: 70vw;
+  width: 85vw;
   text-align: justify;
-  font-size: 14px;
-  text-indent: 40px;
+  font-size: 12px;
+  text-indent: 25px;
   
 }
 .content button{
  background: #6A5ACD;
- width:  150px;
+ width:  110px;
  text-transform: uppercase;
  color:#FFF;
- font-size: 14px;
+ font-size: 13px;
  font-weight: bold;
  border-radius: 20px;
  padding: 10px;
- margin: 30px
+ margin-top: 20px
 }
 .content button:hover{
   animation: pulse;  
@@ -92,6 +92,7 @@
 }
 .info h1{
   font-size: 30px;
+
  
 }
 .info h2{
@@ -102,13 +103,18 @@
 .info p{
   font-size: 20px;
 }
+.content{
+  top:200px;
+}
 .content strong{
   padding: 25px;  
   font-size: 20px;
 }
 .content p{
-  width: 70%;
+  width: 70vw;
   font-size: 15px;
+  font-size: 17px;
+  text-indent: 40px;
 }
 .content button{
   width:  250px;

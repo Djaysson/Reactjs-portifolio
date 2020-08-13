@@ -1,15 +1,16 @@
 .sobre{
   width: 100vw;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   
 
 }
 .sobre img{
-  width: 150px;
-  height: 280px;
-  padding: 60px 0px 0px 20px;
+  width: 140px;
+  height: 220px;
+  padding: 20px 0px 0px 20px;
   animation: fadeInLeft; 
   animation-duration: 2s; 
 }
@@ -23,10 +24,10 @@
   
 }
 .conteudo p{
-  width: 60vw;
+  width: 90vw;
  text-align: justify;
  font-size: 14px;
- text-indent: 40px;
+ text-indent: 20px;
  animation: fadeInUp;  
  animation-duration: 2s; 
 }
@@ -36,18 +37,26 @@
 }
 .title strong{
  color:#6A5ACD;
- font-size: 25px;
+ font-size: 20px;
  padding-right: 10px;
  animation: lightSpeedInLeft; 
   animation-duration: 2s; 
 }
 .title h2{
- font-size: 25px;
- margin-bottom: 25px;
+ font-size: 20px;
+ margin-bottom: 10px;
  animation: lightSpeedInRight; 
   animation-duration: 2s; 
 }
 @media (min-width: 700px){
+  .sobre{
+    width: 100vw;
+    height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
   .sobre img{
     width: 200px;
     height: 350px;

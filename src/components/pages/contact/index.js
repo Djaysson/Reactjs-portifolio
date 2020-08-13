@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import Footer from '../../footer/index';
+
 import './styles.css';
 
 const Contato = () => {
@@ -25,21 +25,20 @@ const Contato = () => {
   }
 
   return (
-    <>
-      <div className="Container">
-        <h1>Contato</h1>
-        <form className="contact-form" onSubmit={sendEmail}>
-          <label>Nome</label>
-          <input type="text" id="name" name="name" placeholder="Seu Nome" required />
-          <label>Email</label>
-          <input type="email" id="email" name="email" placeholder="Seu Email" required />
-          <label>Mensagem</label>
-          <textarea name="message" id="message" placeholder="Sua Mensagem " required />
-          <input className="button" type="submit" value="Enviar" />
-        </form>
-      </div>
-      <Footer />
-    </>
+
+    <div className="Container">
+      <h1>Contato</h1>
+      <form className="contact-form" onSubmit={sendEmail}>
+        <label>Nome</label>
+        <input type="text" id="name" name="name" placeholder="Seu Nome" required />
+        <label>Email</label>
+        <input type="email" id="email" name="email" placeholder="Seu Email" required />
+        <label>Mensagem</label>
+        <textarea name="message" id="message" placeholder="Sua Mensagem " required />
+        <input className="button" type="submit" value="Enviar" />
+      </form>
+    </div>
+
   )
 }
 export default Contato;

@@ -5,12 +5,10 @@
   flex-direction: column;
   color: #fff;
  
-  
-
 }
 
 .containe-trabalhos h1{
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #fff;
   margin-top: 20px;
@@ -25,8 +23,8 @@
   
 }
 .project-list article {
- width: 300px; 
- height: 130px; 
+ width: 250px; 
+ height: 170px; 
  padding-bottom: 220px;
 }
 .project-list article header{
@@ -38,17 +36,17 @@
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
 }
 .project-list article header p{
   color:#fff;
-  font-size: 12px;
+  font-size: 10px;
   padding-right: 4px;
 
 }
 .project-list article img {
-  width: 300px;
+  width: 250px;
   height: 150px;
   
 }
@@ -64,9 +62,9 @@
   background-color:#6A5ACD;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
   width: 125px;
-  height: 25px;
+  height: 20px;
   border-radius: 10px; 
 }
 .project-list button:hover{
@@ -120,10 +118,12 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
+    font-size: 15px;
   }
   .project-list article header p{
     color:#fff;
     padding-right: 50px;
+    font-size: 13px;
   }
   .project-list article img {
     width: 250px;
@@ -142,7 +142,7 @@
     background-color:#6A5ACD;
     text-transform: uppercase;
     font-weight: bold; 
-    font-size: 15px;
+    font-size: 14px;
     width: 125px;
     height: 25px;
     border-radius: 10px; 

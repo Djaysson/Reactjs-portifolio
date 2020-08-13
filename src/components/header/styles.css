@@ -9,11 +9,11 @@
   
 }
 .menu img {
- width: 110px;
+ width: 65px;
  height: 65px;
 }
 .menu header nav {
-  font-size: 17px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +27,8 @@
   list-style: none;
 }
 .menu header nav ul li{
- padding-right: 27px;
+ padding-right: 7px;
+ font-size:12px;
 }
 @media (min-width: 700px){
   .menu {
@@ -40,6 +41,7 @@
   }
   .menu header nav ul li{
     padding-right: 40px;
+     font-size:20px;
    }
   .menu img {
     width: 150px;

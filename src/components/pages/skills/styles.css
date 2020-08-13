@@ -1,6 +1,6 @@
 .progresso{
   width: 100vw;
-  height: 40vh;
+  height: 90vh;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -9,16 +9,16 @@
   animation-duration: 2s; 
 }
 .progresso h2{
-  font-size: 25px;
+  font-size: 20px;
   margin: 20px;  
-  padding-left: 110px;
+  
   animation: lightSpeedInLeft; 
   animation-duration: 2s; 
 }
 .progresHabilidades{
-  display: flex;
-  flex-direction: row;
- 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1em;
 
 }
 .percetual{
@@ -54,7 +54,17 @@
     font-size: 20px;
   }
 }
-@media (min-width: 680px){
+@media (min-width: 700px){
+  .progresso{
+    width: 100vw;
+    height: 40vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeInUp;  
+    animation-duration: 2s; 
+  }
   .progresso h2{
     font-size: 30px;
     margin: 20px;  
