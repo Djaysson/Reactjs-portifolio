@@ -20,6 +20,7 @@ textarea{
   color: #FFF;
 }
 body{
+  background-image: url("./assets/BackgroundGIF.gif");
   background-color: #000000;
   -webkit-font-smoothing: antialiased;
 }
