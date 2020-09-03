@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/Djaysson/Reactjs-portifolio/blob/master/src/assets/home.png" ></img></p>
+<p align="center"></img></p>
 <h1 align="center">Projeto Portfólio</h1>
 <p align="center">O projeto foi desenvolvido para desmostra meus trablhos de desenvolvedor</p>
 
@@ -38,7 +38,7 @@ yarn start
 
 ## Frontend
 
-<img align="center" src="./src/assets/githome.gif"></img>
+<img align="center" src="https://github.com/Djaysson/Reactjs-portifolio/blob/master/src/assets/home.png" >
 
 ## Licença
 [MIT](./LICENSE)
