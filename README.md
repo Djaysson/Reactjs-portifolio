@@ -1,4 +1,4 @@
-<p align="center"></img></p>
+
 <h1 align="center">Projeto Portfólio</h1>
 <p align="center">O projeto foi desenvolvido para desmostra meus trablhos de desenvolvedor</p>
 
