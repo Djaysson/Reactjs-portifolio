@@ -7,8 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*isso faz com que a nossa pagina sempre vai pega o tamanho 100%*/
-/*(usar width vw medida e o height usar o vh*/
+
 html, body, #root {
   height: 100vh;
 }
@@ -18,6 +17,7 @@ button,
 textarea{
   font: 500 1.6rem Roboto, sans-serif;
   color: #FFF;
+
 }
 body{
   background-image: url("./assets/BackgroundGIF.gif");
@@ -26,6 +26,7 @@ body{
 }
 button{
   cursor: pointer;
+  border: none;
 }
 a{
   text-decoration: none;
