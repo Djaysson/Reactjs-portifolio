@@ -82,11 +82,8 @@
   }
   .containe-trabalhos h1{
     font-size: 3rem;
-    margin-bottom: 30px;
-    color: #fff;
     margin-top: 3rem;
-    animation: fadeInLeft;  
-      animation-duration: 2s; 
+   
   }
   .project-list {
     display: grid;
