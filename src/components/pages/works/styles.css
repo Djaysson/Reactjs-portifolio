@@ -36,12 +36,12 @@
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
 }
 .project-list article header p{
   color:#fff;
-  font-size: 10px;
+  font-size: 14px;
   padding-right: 4px;
 
 }
@@ -71,25 +71,14 @@
   background-color: rgb(231, 227, 227);
 
 }
-.project1{
-  animation: fadeInLeft;  
-  animation-duration: 4s; 
-}
-.project2{
-  animation: fadeInLeft;  
-  animation-duration: 3s; 
-}
-.project3{
+.projects{
   animation: fadeInLeft;  
   animation-duration: 2s; 
 }
 
-
 @media (min-width:700px){
   .containe-trabalhos{
-    
-    width: 100vw;
-      
+    width: 100vw;   
   }
   .containe-trabalhos h1{
     font-size: 3rem;
@@ -123,7 +112,7 @@
   .project-list article header p{
     color:#fff;
     padding-right: 50px;
-    font-size: 13px;
+    font-size: 15px;
   }
   .project-list article img {
     width: 250px;
