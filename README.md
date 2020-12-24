@@ -38,7 +38,11 @@ yarn start
 
 ## Frontend
 
-<img align="center" src="https://github.com/Djaysson/Reactjs-portifolio/blob/master/src/assets/home.png" >
+<img align="center" src="././src/assets/home.png" >
+
+
+## Mobile
+<img align="center" src="././src/assets/homeMobile .png" >
 
 ## Licença
 [MIT](./LICENSE)
