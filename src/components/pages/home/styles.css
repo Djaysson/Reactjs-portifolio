@@ -6,9 +6,11 @@
   
 }
 .home img{
-  position: absolute;
+ position: absolute;
   width: 100vw;
-  height: 200px;
+  height: 260px;
+  opacity: 0.5;
+  
   
  
 }
@@ -19,26 +21,34 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  top:90px;
+  top:80px;
   color: #FFF;  
   
 }
 .info h1{
   font-size: 20px;
   animation: lightSpeedInLeft; 
-  animation-duration: 2s; 
+  animation-duration: 3s; 
  
 }
 .info h2{
   font-size: 20px;
-  color:red;
+  color:	#87CEFA;
   animation: lightSpeedInLeft; 
   animation-duration: 3s; 
 }
 .info p{
   font-size: 15px;
   animation: lightSpeedInLeft; 
-  animation-duration: 5s; 
+  animation-duration: 3s; 
+}
+.icons{
+  padding: 7px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: lightSpeedInLeft; 
+  animation-duration: 3s; 
 }
 .content{
   position: relative;
@@ -46,14 +56,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top:150px;
+  top:200px;
   color: #FFF;
-  animation: fadeInUp;  
-  animation-duration: 2s; 
+  animation: lightSpeedInLeft;  
+  animation-duration: 3s; 
   
 }
 .content strong{
-  padding: 20px;  
+  padding: 25px;  
   font-size: 18px;
 }
 .content p{
@@ -61,7 +71,7 @@
   align-items: center;
   width: 85vw;
   text-align: justify;
-  font-size: 12px;
+  font-size: 14px;
   text-indent: 25px;
   
 }
@@ -87,8 +97,21 @@
     height: 90vh;
   }
   .home img{
+    position: absolute;
     width: 100vw;
     height: 300px;
+    opacity: 0.5;
+}
+.info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  top:90px;
+  color: #FFF;  
+  
 }
 .info h1{
   font-size: 30px;
@@ -97,14 +120,23 @@
 }
 .info h2{
   font-size: 30px;
-  color:red;
+  color:	#87CEFA;
   
 }
 .info p{
-  font-size: 17px;
+  font-size: 25px;
 }
 .content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   top:200px;
+  color: #FFF;
+  animation: lightSpeedInLeft;  
+  animation-duration: 3s; 
+  
 }
 .content strong{
   padding: 25px;  
@@ -112,7 +144,6 @@
 }
 .content p{
   width: 70vw;
-  font-size: 15px;
   font-size: 17px;
   text-indent: 40px;
 }

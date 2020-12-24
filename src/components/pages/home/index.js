@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 import './styles.css';
 import Img from '../../../assets/coding.jpg';
@@ -8,11 +9,21 @@ const Home = () => {
   return (
 
     <div className="home">
+
       <img src={Img} alt="backgraud" />
       <div className="info">
         <h1>Ola,Eu sou</h1>
         <h2>Djayson Rodrigues</h2>
-        <p>Developer Front End | React | React Nativo</p>
+        <p>Front-end developer | Javascript | Reactjs</p>
+        <div className="icons">
+          <a href="https://github.com/Djaysson" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={25} />
+          </a>
+
+          <a href="https://www.linkedin.com/in/djaysonrodrigues/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={25} />
+          </a>
+        </div>
       </div>
       <div className="content">
         <strong>Seja bem vindo ao meu portfólio</strong>

@@ -71,8 +71,8 @@
     align-items: center;
     justify-content: center;
     align-items: center;
-  
-  
+ 
+   
   }
   .menu header nav ul{
     font-weight: bold;
@@ -81,31 +81,51 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+    
   }
+  
 	.menu nav ul{
-		position: fixed;
+		position: absolute;
 		width: 100%;
-    background-color: #6A5ACD;
+    background-color: #695acde7;
+    
 		top: 50px;
 		left: -100%;
 		text-align: center;
-		transition: all .5s;
-	}
+    transition: all .5s;
+   
+  }
+	
+
+  
 	.menu nav ul li{
 		display: block;
 		padding: 9px 0;
-		line-height: 30px;
+    line-height: 30px;
+    
 	}
+
   .menu	nav ul li a {
-		font-size: 12px;
+    font-size: 12px;
+    
   }
+ 
   .checkbtn {
-		display: block;
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: block;
+
   }
  
 	#check:checked ~ ul {
-		left: 0;
-	}
+    left: 0px;
+    z-index: 1;
+  }
+
 }
 
 
