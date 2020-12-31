@@ -15,9 +15,29 @@
   color: #FFF;
   height: 35px;
 }
+@media (min-width:480px) {
+  .footer {
+  position: relative;
+  bottom:0em;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #695acde7; 
+ 
+}
+.footer footer{
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  height: 35px;
+}
+}
 @media (min-width: 700px){
   .footer{
     position: relative;
+    margin-top: 1rem;
   }
   .footer footer{
     font-size: 15px;

@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
-
 .Container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin-bottom: 10px;
     width: 100vw;
     height: 90vh;
  
@@ -20,7 +18,6 @@
     animation-duration: 2s; 
 }
 .contact-form {
-    font: 400 Roboto, sans-serif;
     font-size: 12px;
     width: 300px;
     height: 390px;
@@ -68,17 +65,65 @@
     margin-bottom: 1px;
     display: block;
 }
-@media(min-width: 700px){
+@media (min-width:480px) {
     .Container{
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
+      margin-bottom: 90px;
+  
+    }
+    .Container h1 {
+        font-size: 20px;
+        margin-top: 4rem;
+    }
+    .contact-form {
+        font-size: 12px;
+        width: 500px;
+        height: 340px;
+        padding: 15px 20px;
+        margin-top: 20px;
+        box-shadow:  0 0 1.2em #6A5ACD;
+        
+        }
+    .contact-form input{
+        padding: 5px 5px;
+        width: 100%;
+         height: 30px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+    .contact-form  textarea {
+        padding: 5px 5px;
+        width: 100%;
+        height: 100px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        resize: none;
+    }
+    .button {
+        background: #00A8F3;
+        padding: 8px 35px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+@media(min-width: 768px){
+    .Container{
+        width: 100vw;
+        height: 100vh;
+        margin-bottom: 20px;
+      
+
     }
     .Container h1 {
         font-size: 3rem;
         margin-top: 3rem;
+      
  
     }
     .contact-form {
-        font: 400 14px Roboto, sans-serif;
         font-size: 12px;
         width: 500px;
         height: 400px;
@@ -112,4 +157,50 @@
         font-weight: bold;
         
     }   
+}
+@media (min-width:1025px) {
+    .Container{
+        width: 100vw;
+        height: 100vh; 
+        margin-bottom: 20px;
+       
+    }
+    .Container h1 {
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+    .contact-form {
+        font-size: 12px;
+        width: 700px;
+        height: 400px;
+        padding: 20px 25px;
+        margin: auto;
+        margin-top: 30px;
+        box-shadow:  0 0 1.2em #6A5ACD;
+       
+        }
+    .contact-form input{
+        padding: 5px 5px;
+        width: 100%;
+         height: 35px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+    .contact-form  textarea {
+        padding: 5px 5px;
+        width: 100%;
+        height: 150px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        resize: none;
+    }
+    .button {
+        background: #00A8F3;
+        padding: 8px 35px;
+        font-size: 15px;
+        font-weight: bold;
+        
+    } 
 }
