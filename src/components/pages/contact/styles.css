@@ -53,7 +53,7 @@
     border: 1px solid rgba(0,0,0,0.2);
     padding: 8px 35px;
     font-size: 11px;
-    background:#6A5ACD;
+    background: #00A8F3;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -106,6 +106,7 @@
         resize: none;
     }
     .button {
+        background: #00A8F3;
         padding: 8px 35px;
         font-size: 15px;
         font-weight: bold;

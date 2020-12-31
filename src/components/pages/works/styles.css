@@ -33,7 +33,7 @@
    
 }
 .project-list article header span{
-  color: #fff;
+  color:  #00A8F3;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 14px;
@@ -59,7 +59,7 @@
   
 }
 .project-list article footer button {
-  background-color:#6A5ACD;
+  background-color: #00A8F3;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 11px;
@@ -78,7 +78,8 @@
 
 @media (min-width:700px){
   .containe-trabalhos{
-    width: 100vw;   
+    width: 100vw;  
+    height: 100vh; 
   }
   .containe-trabalhos h1{
     font-size: 3rem;
@@ -100,7 +101,7 @@
       justify-content: space-between;
   }
   .project-list article header span{
-    color: #fff;
+    color: #00A8F3;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -125,7 +126,7 @@
     
   }
   .project-list article footer button {
-    background-color:#6A5ACD;
+    background-color:#00A8F3;
     text-transform: uppercase;
     font-weight: bold; 
     font-size: 14px;

@@ -87,8 +87,7 @@
 	.menu nav ul{
 		position: absolute;
 		width: 100%;
-    background-color: #695acde7;
-    
+    background-color: #695acde7; 
 		top: 50px;
 		left: -100%;
 		text-align: center;

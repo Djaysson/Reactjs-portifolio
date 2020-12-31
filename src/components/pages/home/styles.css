@@ -33,7 +33,7 @@
 }
 .info h2{
   font-size: 20px;
-  color:	#87CEFA;
+  color:	#00A8F3;
   animation: lightSpeedInLeft; 
   animation-duration: 3s; 
 }
@@ -69,14 +69,14 @@
 .content p{
   display: flex;
   align-items: center;
-  width: 85vw;
+  width: 90vw;
   text-align: justify;
-  font-size: 14px;
+  font-size: 15px;
   text-indent: 25px;
   
 }
 .content button{
- background: #6A5ACD;
+ background:#00A8F3;
  width:  110px;
  text-transform: uppercase;
  color:#FFF;
@@ -120,7 +120,7 @@
 }
 .info h2{
   font-size: 30px;
-  color:	#87CEFA;
+  color:	#00A8F3;
   
 }
 .info p{

@@ -4,7 +4,7 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  background-color: #6A5ACD;
+  background-color: #695acde7; 
  
 }
 .footer footer{
@@ -17,7 +17,7 @@
 }
 @media (min-width: 700px){
   .footer{
-    position: absolute;
+    position: relative;
   }
   .footer footer{
     font-size: 15px;

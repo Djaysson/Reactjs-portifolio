@@ -1,18 +1,19 @@
 .sobre{
   width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 
 }
+
 .sobre img{
-  width: 140px;
+  width: 180px;
   height: 220px;
   padding: 20px 0px 0px 20px;
   animation: fadeInLeft; 
-  animation-duration: 2s; 
+  animation-duration: 3s; 
 }
 .conteudo{
   width: 70vw;
@@ -28,25 +29,25 @@
  text-align: justify;
  font-size: 15px;
  text-indent: 20px;
- animation: fadeInUp;  
- animation-duration: 2s; 
+ animation: fadeInRight; 
+ animation-duration: 3s; 
 }
 .title {
  display: flex;
  padding-top: 15px;
 }
 .title strong{
- color:#6A5ACD;
+  color:	#00A8F3;
  font-size: 20px;
  padding-right: 10px;
  animation: lightSpeedInLeft; 
-  animation-duration: 2s; 
+  animation-duration: 3s; 
 }
 .title h2{
  font-size: 20px;
  margin-bottom: 10px;
  animation: lightSpeedInRight; 
-  animation-duration: 2s; 
+  animation-duration: 3s; 
 }
 @media (min-width: 700px){
   .sobre{
@@ -58,12 +59,12 @@
   justify-content: center;
   }
   .sobre img{
-    width: 200px;
+    width: 250px;
     height: 350px;
     padding: 60px 20px 0px 20px;
   }
   .conteudo p{
-    width: 80%;
+    width: 60vw;
    text-align: justify;
    font-size: 17px;
    text-indent: 40px;
