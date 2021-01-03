@@ -26,7 +26,7 @@ const Home = () => {
         </div>
       </div>
       <div className="content">
-        <strong>Seja bem vindo ao meu portfólio</strong>
+        <h2>Seja bem vindo ao meu portfólio</h2>
 
         <p>Me chamo Djayson Rodrigues e criei este
         Portfólio com o intuito de  mostrar os
@@ -35,7 +35,7 @@ const Home = () => {
         um pouco da minha história profissional,
         além de poder conferir meus trabalhos e
         entrar em contato diretamente comigo.
-           </p>
+            </p>
         <button><Link to="/about">Saiba mais</Link></button>
 
 

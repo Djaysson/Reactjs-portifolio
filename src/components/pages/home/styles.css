@@ -1,18 +1,13 @@
 .home{
   width: 100vw;
   height: 100vh;
-  margin: 0 auto;
-  
-  
+  margin: 0 auto; 
 }
 .home img{
  position: absolute;
   width: 100vw;
   height: 260px;
   opacity: 0.5;
-  
-  
- 
 }
 .info {
   position: relative;
@@ -44,10 +39,10 @@
 }
 .icons{
   padding: 7px 0px 0px 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    animation: lightSpeedInLeft; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: lightSpeedInLeft; 
   animation-duration: 3s; 
 }
 .content{
@@ -62,8 +57,9 @@
   animation-duration: 3s; 
   
 }
-.content strong{
-  padding: 25px;  
+.content h2{
+  padding: 15px;
+  margin-top: 5px;   
   font-size: 18px;
 }
 .content p{
@@ -84,22 +80,115 @@
  font-weight: bold;
  border-radius: 20px;
  padding: 10px;
- margin-top: 20px
+ margin-top: 20px;
 }
 .content button:hover{
   animation: pulse;  
   animation-duration: 2s;
   background: rgb(231, 227, 227); 
 }
+@media (min-width:480px) {
+  .home{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;  
+    margin-bottom: 170px;
+  }
+  .home img{
+   position: absolute;
+    width: 100vw;
+    height: 260px;
+    opacity: 0.5; 
+  }
+  .info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    top:80px;
+    color: #FFF;    
+  }
+  .info h1{
+    font-size: 20px;
+    animation: lightSpeedInLeft; 
+    animation-duration: 3s; 
+   
+  }
+  .info h2{
+    font-size: 20px;
+    color:	#00A8F3;
+    animation: lightSpeedInLeft; 
+    animation-duration: 3s; 
+  }
+  .info p{
+    font-size: 15px;
+    animation: lightSpeedInLeft; 
+    animation-duration: 3s; 
+   
+  }
+  .icons{
+    padding: 7px 0px 0px 0px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      animation: lightSpeedInLeft; 
+    animation-duration: 3s; 
+  }
+  .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:200px;
+    color: #FFF;
+    animation: lightSpeedInLeft;  
+    animation-duration: 3s; 
+
+  }
+  .content h2{
+    padding: 15px;  
+    margin-top: 5px; 
+    font-size: 18px;
+  }
+  .content p{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    text-align: justify;
+    font-size: 15px;
+    text-indent: 25px;
+    
+  }
+  .content button{
+   background:#00A8F3;
+   width:  110px;
+   text-transform: uppercase;
+   color:#FFF;
+   font-size: 13px;
+   font-weight: bold;
+   border-radius: 20px;
+   padding: 10px;
+   margin-top: 20px
+  }
+  .content button:hover{
+    animation: pulse;  
+    animation-duration: 2s;
+    background: rgb(231, 227, 227); 
+  }
+}
 @media (min-width: 700px){
   .home{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
+    margin-bottom: 0px;
   }
   .home img{
     position: absolute;
     width: 100vw;
-    height: 300px;
+    height: 350px;
     opacity: 0.5;
 }
 .info {
@@ -138,9 +227,10 @@
   animation-duration: 3s; 
   
 }
-.content strong{
-  padding: 25px;  
-  font-size: 20px;
+.content h2{
+  padding: 25px;
+  margin-top: 25px;  
+  font-size: 25px;
 }
 .content p{
   width: 70vw;

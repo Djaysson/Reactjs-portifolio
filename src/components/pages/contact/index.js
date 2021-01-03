@@ -18,6 +18,7 @@ const Contato = () => {
       )
       .then((result) => {
         document.location.reload(true);
+        alert('Email de contato enviado com sucesso');
       }, (error) => {
         console.log(error.text);
       });
@@ -35,7 +36,7 @@ const Contato = () => {
         <input type="email" id="email" name="email" placeholder="Seu Email" required />
         <label>Mensagem</label>
         <textarea name="message" id="message" placeholder="Sua Mensagem " required />
-        <input className="button" type="submit" value="Enviar" />
+        <input id="button" type="submit" value="Enviar" />
       </form>
     </div>
 

@@ -28,6 +28,7 @@
   width: 90vw;
  text-align: justify;
  font-size: 15px;
+ margin: 5px;
  text-indent: 20px;
  animation: fadeInRight; 
  animation-duration: 3s; 
@@ -49,6 +50,61 @@
  animation: lightSpeedInRight; 
   animation-duration: 3s; 
 }
+@media (min-width:480px) {
+  .sobre{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .sobre img{
+    width: 180px;
+    height: 220px;
+    margin-top: 100px;
+    padding: 20px 0px 0px 20px;
+    animation: fadeInLeft; 
+    animation-duration: 3s; 
+  }
+  .conteudo{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+  }
+  .conteudo p{
+   width: 90vw;
+   text-align: justify;
+   font-size: 15px;
+   margin: 5px;
+   text-indent: 20px;
+   animation: fadeInRight; 
+   animation-duration: 3s; 
+  }
+  .title {
+   display: flex;
+   padding-top: 15px;
+  }
+  .title strong{
+    color:	#00A8F3;
+   font-size: 20px;
+   padding-right: 10px;
+   animation: lightSpeedInLeft; 
+    animation-duration: 3s; 
+  }
+  .title h2{
+   font-size: 20px;
+   margin-bottom: 10px;
+   animation: lightSpeedInRight; 
+    animation-duration: 3s; 
+  }
+}
 @media (min-width: 700px){
   .sobre{
     width: 100vw;
@@ -67,6 +123,7 @@
     width: 60vw;
    text-align: justify;
    font-size: 17px;
+   margin: 3px;
    text-indent: 40px;
    padding: 5px;
     
