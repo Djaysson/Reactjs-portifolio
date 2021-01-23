@@ -5,6 +5,7 @@ import Img from '../../../assets/home.png';
 import Img2 from '../../../assets/convert.png';
 import Img3 from '../../../assets/palpitebox.png';
 import Img4 from '../../../assets/pageTestesCovid.png';
+import Img5 from '../../../assets/proffy.png';
 
 function Works() {
   return (
@@ -56,6 +57,17 @@ function Works() {
           <footer>
             <button><a target="_blank" rel="noopener noreferrer" href="https://testes-covid.netlify.app">demo</a></button>
             <button><a target="_blank" rel="noopener noreferrer" href="https://github.com/Djaysson/Testes-covid">github</a></button>
+          </footer>
+        </article>
+        <article className="projects">
+          <header>
+            <span>Frontend</span>
+            <p>Proffy</p>
+          </header>
+          <img src={Img5} alt="Imagem do projeto Proffy" />
+          <footer>
+            <button><a target="_blank" rel="noopener noreferrer" href="https://proffyapp.vercel.app">demo</a></button>
+            <button><a target="_blank" rel="noopener noreferrer" href="https://github.com/Djaysson/Proffy">github</a></button>
           </footer>
         </article>
 

@@ -75,90 +75,12 @@
   animation: fadeInLeft;  
   animation-duration: 2s; 
 }
-@media (min-width:480px) {
-  .containe-trabalhos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #fff;
-    margin-bottom: 20px;
-   
-  }
-  
-  .containe-trabalhos h1{
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #fff;
-    margin-top: 20px;
-    animation: fadeInLeft;  
-    animation-duration: 2s; 
-  }
-  .project-list {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 1em;
-    
-    
-  }
-  .project-list article {
-   width: 250px; 
-   height: 170px; 
-   padding-bottom: 220px;
-  }
-  .project-list article header{
-      display: flex;
-      justify-content: space-between;
-     
-  }
-  .project-list article header span{
-    color:  #00A8F3;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 14px;
-    font-weight: 700;
-  }
-  .project-list article header p{
-    color:#fff;
-    font-size: 14px;
-    padding-right: 4px;
-  
-  }
-  .project-list article img {
-    width: 250px;
-    height: 150px;
-    
-  }
-  .project-list article footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 4px;
-  
-    
-  }
-  .project-list article footer button {
-    background-color: #00A8F3;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 11px;
-    width: 125px;
-    height: 20px;
-    border-radius: 10px; 
-  }
-  .project-list button:hover{
-    background-color: rgb(231, 227, 227);
-  
-  }
-  .projects{
-    animation: fadeInLeft;  
-    animation-duration: 2s; 
-  }
-}
+
 @media (min-width:700px){
   .containe-trabalhos{
     width: 100vw;  
     height: 100vh; 
+
   }
   .containe-trabalhos h1{
     font-size: 3rem;
@@ -169,6 +91,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1em;
+ 
   }
   .project-list article {
    width: 300px; 
